@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>form</title>
+</head>
+<body>
+    <section class="bonus">
+        <div class="bonus__container">
+            <div class="bonus__block">
+                <div class="bonus__texts">
+                    <h1 class="bonus__head">При фиксации брекетов на обе челюсти получи сертификат на 7000 <br>рублей</h1>
+                    <p class="bonus__text">Укажите вой номер телефона, мы <br>перезвоним и подберем для вас удобное<br> время приёма.<br>
+                        Или позвоните нам сами — <p class="phone__blue">+7 900 333 10 40</p>
+                    <form class="appointment-form">
+                        <label for="phoneNumber"></label>
+                        <input class="input__phone" type="tel" id="phoneNumber" name="phoneNumber" placeholder="Телефон" required>
+
+                        <button class="bonus__btn" type="submit" >Записаться на приём</button>
+                    </form>
+                    <p class="confirm">Записываясь на услугу вы даёте согласие на обработку своих персональных данных</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
